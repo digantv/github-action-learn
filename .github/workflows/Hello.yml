@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: print hellow
-        run: echo "hello world !!"
+        run: cat /etc/os-release
 
       - name: print challo
         run: echo "challo world !!"
