@@ -26,5 +26,5 @@ jobs:
     container:
       image: alpine:latest
     steps:
-      - name: print env variable  value
-        run: echo $JDK_VERSION
+      - name: print Maven version
+        run: echo $MAVEN_VERSION
