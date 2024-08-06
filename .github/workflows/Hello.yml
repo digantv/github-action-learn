@@ -22,5 +22,5 @@ jobs:
     container:
       image: alpine:latest
     steps:
-      - name: print env variable 
+      - name: print env variable  value
         run: echo $JDK_VERSION
