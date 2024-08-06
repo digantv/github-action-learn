@@ -18,7 +18,7 @@ jobs:
           java --version
           echo "$MAVEN_VERSION=1234" >> $GITHUB_ENV
       - name: print Maven Version
-          echo $MAVEN_VERSION
+        run: echo $MAVEN_VERSION
  
    
   print-env:
