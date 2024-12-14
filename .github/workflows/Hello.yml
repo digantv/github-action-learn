@@ -8,7 +8,7 @@ env:
   JDK_VERSION: "openjdk11-jdk"
 jobs:
   install-java:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu
     container:
       image: alpine:latest
     steps:
